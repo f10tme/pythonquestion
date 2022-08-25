@@ -1,6 +1,6 @@
-# pythonquestion
-Python Question
+# Python Question
 
+Install
 ```
 git clone https://github.com/arinweb/pythonquestion
 cd pythonquestion
