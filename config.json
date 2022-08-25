@@ -1,0 +1,10 @@
+{
+  "jsonFileName": "test.json",
+  "question":{
+    "name":"soru",
+    "reply":"cevap",
+    "option":["a","b","c","d","e"],
+    "totalPoint": 100,
+    "skip":true
+  }
+}
