@@ -1,0 +1,38 @@
+[
+   {
+    "soru":"Başlık etiketi hangisidir?",
+    "cevap":"a",
+    "a":"<h1>Başlık</h1>",
+    "b":"<marquee>Başlık<marquee>",
+    "c":"<small>Başlık</small>",
+    "d":"<b>Başlık</b>",
+    "e":"<header>Başlık</header>"
+  },
+  {
+    "soru":"Title etiketi hangi etiketin arasına yazılır?",
+    "cevap":"e",
+    "a":"body",
+    "b":"main",
+    "c":"header",
+    "d":"footer",
+    "e":"head"
+  },
+  {
+    "soru":"Temel web dili nedir?",
+    "cevap":"b",
+    "a":"asp",
+    "b":"html",
+    "c":"c#",
+    "d":"javascript",
+    "e":"Assembly"
+  },
+  {
+    "soru":"Form işlevini belirlemek için hangi attribute kullanılır?",
+    "cevap":"a",
+    "a":"method",
+    "b":"type",
+    "c":"class",
+    "d":"accept",
+    "e":"id"
+  }
+]
