@@ -77,7 +77,7 @@ Toplam puan **100** toplam puanı soru adedine bölünür ve kazanılan puan bel
 <br>ÖR: Toplam Puan 100,Soru adedimizde 5 / 100 ÷ 5 = 20 Yani bir soru 20 puana eşit olmaktadır.
 <br>
 ### *question* *point* **status**
-Özel puan ayarlayabilirsiniz her soru için ayrı ayrı, değer **true** ise *question* *point* **name** değişkeninde belirttiğiniz değerdeki puanlar baz alınır **false** ise totalPoint işlemi uygulanır.
+Özel puan ayarlayabilirsiniz her soru için ayrı ayrı, değer **true** ise *question* *point* **name** değişkeninde belirttiğiniz değerdeki puanlar baz alınır **false** ise (#question-totalpoint)[totalPoint] işlemi uygulanır.
 <br>
 ### *question* *point* **name**
 Özel puan değişken adı **puan**
