@@ -60,7 +60,7 @@ else:
   print("  Doğru Cevaplar:\n   "+str(replyList))
   if jsonConfig["question"]["point"]["status"] == False:
     print("Bir Soru Puanı: "+str(questionPoint))
-  print("Puanın: "+str(point))
+  print("Toplam Puanın: "+str(point))
   print("Toplam Soru: "+str(int(totalQuestion)))
   print("  Doğru: "+str(int(trueQuestion)))
   print("  Yanlış: "+str(int(falseQuestion)))
