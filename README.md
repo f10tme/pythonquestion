@@ -1,6 +1,6 @@
 # Python Question
 
-Install
+#### Kurulum Kodları
 ```
 git clone https://github.com/arinweb/pythonquestion
 cd pythonquestion
