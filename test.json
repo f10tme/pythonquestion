@@ -6,7 +6,8 @@
     "b":"<marquee>Başlık<marquee>",
     "c":"<small>Başlık</small>",
     "d":"<b>Başlık</b>",
-    "e":"<header>Başlık</header>"
+    "e":"<header>Başlık</header>",
+    "puan":10
   },
   {
     "soru":"Title etiketi hangi etiketin arasına yazılır?",
@@ -15,7 +16,8 @@
     "b":"main",
     "c":"header",
     "d":"footer",
-    "e":"head"
+    "e":"head",
+    "puan":5
   },
   {
     "soru":"Temel web dili nedir?",
@@ -24,7 +26,8 @@
     "b":"html",
     "c":"c#",
     "d":"javascript",
-    "e":"Assembly"
+    "e":"Assembly",
+    "puan":8
   },
   {
     "soru":"Form işlevini belirlemek için hangi attribute kullanılır?",
@@ -33,6 +36,7 @@
     "b":"type",
     "c":"class",
     "d":"accept",
-    "e":"id"
+    "e":"id",
+    "puan":15
   }
 ]
