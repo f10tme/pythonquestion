@@ -4,7 +4,11 @@
     "name":"soru",
     "reply":"cevap",
     "option":["a","b","c","d","e"],
+    "skip":true,
     "totalPoint": 100,
-    "skip":true
+    "point":{
+      "status":false,
+      "name":"puan"
+    }
   }
 }
