@@ -68,4 +68,4 @@ else:
     print("  Boş: "+str(int(emptyQuestion)))
 print("\nArin Web | https://arinweb.xyz")
 print("Kodlar için: https://arinweb.xyz/github")
-print("İyi Günler Dileriz :)")%
+print("İyi Günler Dileriz :)")
