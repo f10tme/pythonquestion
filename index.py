@@ -1,4 +1,4 @@
-# ARİN WEB 
+# ARİN WEB
 # https://arinweb.xyz
 import json
 # Variables
@@ -30,6 +30,8 @@ for x in question:
       if optionCount > 0 or replyIN == "":
         userReplyList.append(replyIN)
         if replyIN == reply:
+          if jsonConfig["question"]["point"]["status"] == True:
+            questionPoint = x[jsonConfig["question"]["point"]["name"]]
           point += questionPoint
         elif replyIN == "":
           print("    Soru boş geçildi!")
@@ -43,6 +45,8 @@ for x in question:
       if optionCount > 0:
         userReplyList.append(replyIN)
         if replyIN == reply:
+          if jsonConfig["question"]["point"]["status"] == True:
+            questionPoint = x[jsonConfig["question"]["point"]["name"]]
           point += questionPoint
         trueQuestion = point/questionPoint
         falseQuestion = totalQuestion-trueQuestion-emptyQuestion
@@ -54,7 +58,8 @@ else:
   #Sınav Puan taranıyor
   print("  Senin Cevapların:\n   "+str(userReplyList))
   print("  Doğru Cevaplar:\n   "+str(replyList))
-  print("Bir Soru Puanı: "+str(questionPoint))
+  if jsonConfig["question"]["point"]["status"] == False:
+    print("Bir Soru Puanı: "+str(questionPoint))
   print("Puanın: "+str(point))
   print("Toplam Soru: "+str(int(totalQuestion)))
   print("  Doğru: "+str(int(trueQuestion)))
@@ -63,4 +68,4 @@ else:
     print("  Boş: "+str(int(emptyQuestion)))
 print("\nArin Web | https://arinweb.xyz")
 print("Kodlar için: https://arinweb.xyz/github")
-print("İyi Günler Dileriz :)")
+print("İyi Günler Dileriz :)")%
