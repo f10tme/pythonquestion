@@ -58,26 +58,26 @@ python index.py
 
 ### *jsonFileName*
 Json dosyasının konumunu belirtmek için kullanılır.
-
+<br>
 ### *question* **name**
 Soru içerik değişken adı **soru**
-
+<br>
 ### *question* **reply**
 Doğru Yanıt değişken adı **cevap**
-
+<br>
 ### *question* **option**
 Cevap Şıkları **["a","b","c","d","e"]**
 <br>ÖR: *["x","y","z"]*
-
+<br>
 ### *question* **skip**
 Soruyu atlama izni değer **true** ise soru atlanabilir değer **false** ise soru atlanamaz mutlaka cevaplanması gerekir.
-
+<br>
 ### *question* **totalPoint**
 Toplam puan **100** toplam puanı soru adedine bölünür ve kazanılan puan belirlenir.
 <br>ÖR: Toplam Puan 100,Soru adedimizde 5 / 100 ÷ 5 = 20 Yani bir soru 20 puana eşit olmaktadır.
-
+<br>
 ### *question* *point* **status**
 Özel puan ayarlayabilirsiniz her soru için ayrı ayrı, değer **true** ise *question* *point* **name** değişkeninde belirttiğiniz değerdeki puanlar baz alınır **false** ise totalPoint işlemi uygulanır.
-
+<br>
 ### *question* *point* **name**
 Özel puan değişken adı **puan**
